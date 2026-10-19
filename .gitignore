@@ -1,0 +1,39 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime data: uploaded PDFs and vector indexes
+data/uploads/
+data/faiss_index/
+data/document_registry.json
+data/document_registry.tmp
+data/*.pdf
+
+# Local PDF documents in project root
+/*.pdf
+
+# Logs
+*.log
